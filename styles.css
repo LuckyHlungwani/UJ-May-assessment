@@ -1,0 +1,25 @@
+body {
+    background-color: #3d7886a1;
+    font-family: arial;
+    padding: 5em;
+}
+.name {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.contact-details {
+    padding: 2em;
+}
+.education, .experience, .my_skills, .reference, .name, .image, .contact-details  {
+    border: 2px solid #ACE1AF;
+    margin: 1em;
+}
+
+
+@media (min-width: 960px) {
+    body {
+        padding: 1em;
+        display: grid;
+    }
+}

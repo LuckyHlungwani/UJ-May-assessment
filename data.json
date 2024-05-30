@@ -1,38 +1,43 @@
 {
     "user" : {
-        "fullName" : "",
-        "photo" : "",
-        "phone" : "",
-        "email" : ""
+        "fullName" : "LOUDRICK LUCKY HLUNGWANI",
+        "photo" : "./Images/photo.jpg",
+        "address" : "",
+        "phone" : "+27 64-033-7035",
+        "email" : "loudrickhlungwani@gmail.com"
     },
     "education" : {
-        "institutionName" : "",
-        "photo" : "",
-        "description" : ""
+        "institutionName" : "UNIVERSITY OF JOHANNESBURG",
+        "qualificationName" : "Advanced Diploma in Financial Management",
+        "yearObtained" : "2023" 
     },
-    "foreignLanguage" : {
-        "language" : "",
-        "phrases" : [{
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        },
-        {
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        }]
+
+
+    "experience" : {
+        "employer" : "Webber's Clothing & Foot Wear",
+        "position" : "Casual-Worker",
+        "year" : "Nov-2021 to Feb-2022",
+        "description" : "Assisting customers with finding and selection products, Operating cash register and handling payments, Providing excellent customer service and maitaining a positive attitude, Performing other tasks that are assigned by the store manager"
     },
-    "favouriteSubjects" : [
-        {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
-        }
-    ]
+    "skills" : {
+        
+        "skill_1" : "Python",
+        "skill_2" : "HTML",
+        "skill_3" : "CSS" ,
+        "skill_4" : "JavaScript",
+        "skill_5" : "Forecasting and Budgeting" ,
+        "skill_6" : "Communication skills(verbal & written)",
+        "skill_7" : "Bookkeeping",
+        "skill_8" : "MicroSoft packages"
+    },
+
+    "reference" : {
+        "compay" : "Webber's Clothing & FootWear" ,
+        "name" : "Sipho Mhlongo",
+        "position" : "Manager",
+        "contactNumber" : "+27 74-509-1335"
+    }
+
+   
 }
+    

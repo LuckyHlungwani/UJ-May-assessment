@@ -3,9 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My CV</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello World</h1>
+    
+<div class="name">
+    <h2>{{user.fullName}}</h2>
+</div>
+
+<div class="image">
+  <img src="{{user.photo}}" alt="" width="200px"> 
+  
+</div>
+
+<div class="contact-details">
+   <h5>{{user.phone}}</h5> 
+    <h5>{{user.email}}</h5>
+</div>
+    
+
+<div class="education">
+    <h2>EDUCATION</h2>
+    <h4>{{education.institutionName}}</h4>
+    <li>{{education.qualificationName}}</li>
+    <li>{{education.yearObtained}}</li>
+</div>
+
+
+<div class="experience">
+    <h2>EXPERIENCE</h2>
+    {{experience.employer}}
+    <p>{{experience.position}}</p>
+    <p>{{experience.year}}</p>
+</div>
+
+<div class="my_skills">
+    <h2>SKILLS</h2>
+    <li>{{skills.skill_1}}</li>
+    <li>{{skills.skill_2}}</li>
+    <li>{{skills.skill_3}}</li>
+    <li>{{skills.skill_4}}</li>
+    <li>{{skills.skill_5}}</li>
+    <li>{{skills.skill_6}}</li>
+    <li>{{skills.skill_7}}</li>
+    <li>{{skills.skill_8}}</li>
+</div>
+
+   <div class="reference">
+    <h2>REFERENCE</h2>
+    <h4>{{reference.compay}}</h4>
+    <p>{{reference.name}}</p>
+    <p>{{reference.position}}</p>
+    <p>{{reference.contactNumber}}</p>
+   </div>
+>
+
+
+
+
+
+
+
+
+
+
+</div>
 </body>
 </html>
